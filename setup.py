@@ -39,7 +39,6 @@ with open('README.rst') as fobj:
 
 install_requires = [
     'tornado>=5.0,<6',
-    'python-daemon<3.0',
 ]
 
 if os.environ.get('READTHEDOCS', None) == 'True':
